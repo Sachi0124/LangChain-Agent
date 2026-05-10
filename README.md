@@ -19,27 +19,15 @@ The agent intelligently decides when to search the web and when to directly answ
 ## 📸 Project Preview
 
 ### Main Chat UI
+## 📸 Project Preview
 
-![Image](https://images.openai.com/static-rsc-4/5_gKJWZ8bXke77EvssYYv5_xROW-ehQ7IR5439EYtsRlwpylUz96b_InC1jwmI5EXBBiFqBwo9o6SguUjS1nKGJXaT8o4MGc8WDwv6v1ItyjMl7REHGdLbs0i4dpjVhk6cAzNKiZyjPEHSdSGV7XaJiNU9OwqjXH3lIKRAlqKFEJidYuW_QLlWbrQRypSucI?purpose=fullsize)
+### Main Chat UI
 
-![Image](https://images.openai.com/static-rsc-4/icDK1Qfm3v5dm1eeey-0s-ydRZcqEeFxdDirEFfVpyXSz5HZbEZ-EPUiF_M5MfFORLfOcZlHTqL4ZE1CNV3nSpUHVXZIJcRZr1JUQ2helbhfmyKN4ECdtGGmItVRbIpxxusmPTlvdiVHEAclO2Hnoa2Cxhx4_-m1usHoEFrGbNWdchAjAWihsuuUKJhO9rsq?purpose=fullsize)
+<img width="100%" src="images/Screenshot 2026-05-09 233304.png">
 
-![Image](https://images.openai.com/static-rsc-4/yhXkmMckrWF5ku064g4hyIy-7ANpv9Awze_pb-ndJhEhxv7ZLHYs94Mj4ThFaIKURIMVZ6IO5x5Re4TfCiMPz2M_IeKDatdCFFTGJ9_n1Xce1QIb_BII3iZKg3TWoso7QWYe4GYL23rt6UKC0N4bUjrYG4oOHRjj4lPFCJx-bs_1Oxmsih7c4SdaO_Ebg2Fu?purpose=fullsize)
+<img width="100%" src="images/Screenshot 2026-05-09 233713.png">
 
-![Image](https://images.openai.com/static-rsc-4/bK4c4jtDBSejLJZmLCNqlMHBZPObLHwjC0z5-Vl2lh4CcE_xzs2wwUipv2Oh41vrl4hePhgRzmaLj69QRpS6DJUdfAbK1NW7QDSH3-b46aWBmzWiA6nJYi76TqSappejUGzHY1yzh_rAtOI0o9U0dzphsSS_h9WJl0oCFaljYKQYZcsaZypF7pzqs66aF72n?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/ZnxZo_NBH7QQgcKuHgdHg9AjISKwOELmXatJ7YGlJeXAUyAdIbIovlQUdwpJete8w6eto4hmpfIblj2TxriPdNGVxtFd90KwbgMF0aZJbiHyVV1DZDHWCqMJOiPoghMaj4c3Ps6MggLTNqBZnUrcGOEKCcRLFdMu3dUi8D5QxAdkGQfFQfOZ7YpBkVzRjzjR?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/JrjYSRvE7pFsyFfBkVjdAsut5M4GielLT30TN7_ThOcU9GR0vGMSFl75gjX0qgNK7N5ltV_hEptatPerHAoYR5Ds5oRMCA1hEx7nOA-su2dGgBFZCEEyRfJdpQ78axdYHSISU9JsWS4HJdUrlhW6yjOgjbs25FNiw_JtIjpJqGidvFh5i2tflNtaUSr_5t7B?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/gjz2PC2MaG7_yH5cU-7VpoCVE879TpFT6PQytJR5CtLFlLwa4ndFNM8pMIRdxBN1k2Q1Eg6nBe37BBhxYak23qlNvtT9te_iKA5DUqCrIjNlePDYiso4xu-BeGnZztxORbiLZVj-R3ZOgWaSHgTdkrxHcNvRG5lhrrgofCslc1If6Zz_LcnVrMjFNcy-bKc9?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/b71aN9VWuK73QmGfsJEOYyXh-PGnrD_GLCjXHv1KUkpdmDAQnKW4KB5_KN10rEGJatRFxUdRB5CCWcn2W2F_bHleI6XA0YGNOXDppqD5EQU35KMBJdQNwAVqygu7_i8cyv80SNx2oGCub7PU00vReeq7mO1a5okSctk0MuAjNDFtcwpavXIlHcSbmsGB7Xh0?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/V5RZZ__OhS3pMDqjN3H6A5LIi261Y8U6OIU8yW-g88bDfx7N1IgkiWSMDWtjBMPy17iju5cO9P-faqzSg8pYPl6ki76R7SOOBlQIHpLx3JfbEMrDBPyhijSyw-hWSvn_KwBoe8-BXlfUclacOvLz7eghuKgbWvuOhR6-nz8nwzvr9DHtLO5bpgHymgLgn2go?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/AxpxOPUjjc4Ut6W8WN2EI9R3JEJfhqC_D5UaBYL5D0gjhKm-dq4v6tsZVR34OXRy0x4vUkACSVWDtnFi1hsNmMhpzzCobIcr45tj54en5Rgu6DwlqTq9K4TZiJs3g3xIzKNtnPHRzAX0NmTFwcjALUUwIdWXPDHaQ1NsXNqJC0Y7xa5bdpU7E_1QDwyvEKq0?purpose=fullsize)
-
+<img width="100%" src="images/Screenshot 2026-05-09 233815.png">
 ---
 
 # ✨ Features
