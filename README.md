@@ -313,38 +313,6 @@ If search fails:
 
 ---
 
-# 🖥 Sample UI
-
-### Weather Query Response
-
-![Image](https://images.openai.com/static-rsc-4/jNczVsw4diR8y9G3tGgKPjlmGtlVlMzYhZnnsnh5oWB2fsf56DazNzT_fAD-u044xD4iLoItdpcdOaeP2z3Zu3trk14TfQU8PkjMgfHseS7dcJ8jiiXzsehBi1ir_abycT7IAftHi2GoBCa3bkUpCwRKMDOIaz_EjE2Mre3k-kNXJqGFaQnE197C-sTWyXdi?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/pF3HauLyfLbDkHJ0oFLXd6ZR0Iz632joLU1rmbv1-zRAyM34TDs_qiAyjjMIomiV1BLoPM5BzWxaDp2s4309leY7W7NrNW2gxtnrNFqn4Xc_j1gNrxIA_y5vL8I6m0JlyEHlCTHhKG4EolqzFkZ8alDTk_1sWFv2ACcZxRpBXBW1P9DFAESoMVii_nMHLwLa?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/lsFCwHoBwL_a1mKGtuH81nrKrNKT2knBenhrfaT7nlKuPoF6tepyUS-uURN27BzoxUkkkY7rcBp33Zz7LfCNds0jWi3S4IWYuMdRkfFGZa3ujHEjHFMPH6uariKa_dWP9XccvcBHm3v0U90h3pp-zpJa9lWCeZG9G1aF5PaR8AIGjlJM9Co_MjK3hG_sIpPK?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/qdzLSy6miYnjzN1Na-3dRLW7AwtGUEGzxZugA9oDo_SZOs9Ju_grBNplaDmfsKc_pu7D_klz_UA5dxXTkgdNYcHEfFG48IlpPX6vQjnQ4Zo3_FMjTLWj8QP_NfJAiCjB7ws47xozqmeFSh1F5DZZU99CxPS_pYwskXBDaRCdxIkYy9XaT2iUbGMM2ZG9rSVN?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/Z3SCvDfrjuFZzcsxoGQ1SZeQ8iZfRDAOzNzs7K6E7N8oA3lTepjUiVWGfv7iEMhh6Jja5yuoc6UoNYdxrwG7Utkr6V_mX_eOSPfIxY82JVqR1TGLh_8VdWvNekrrE2GSGIbsJ1lOrkJ9EBCCRVhiqp7ZYZtzbWOr1Hjs1fNdZNzZDRLFp-w6uXfgccuB5zrO?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/jk-bG6dX_XQ0WOZqMxpiYmr-0tG4rzQAaNF9iMzI25T04tV-CNVE7RLPUpub9Lw9qoDjrNMKSSLGwVc6XPE90IjgEWCpaU3DzVGs4X2ononH-ZncFQgn6DXzB7YGL6rwW1g7GdZXtNdzfDOZWAZn82Vmm3ioZplZRU0rr1RdfZaLpz1wNmVA3z9txbQQ5GZq?purpose=fullsize)
-
-### General Knowledge Query
-
-![Image](https://images.openai.com/static-rsc-4/JKSP_Ov-WjZumnnVN1yTyu_cKXs4fVFgFJ35G-qJmFfW6A8epuYBxNnH2rTvPGJMsKDU-7jgYfRLRUnIzuFzSMrBIltjJsECGfgO02KSJR7dvBgP5R1-07Mp6iR5KfsPQHu5gugb2DKOiL5SOcEJhOmhlySRf2IC_uDDGI-Dj6SAik41vzUTybFyPxqXjU-9?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/9ngi5PNDCcA0Hd4ws3bOCxgbld55v-HOndWp8vTEPBZulQmpa3cgeYVMFUi25uFMgewJjq4wfxW6X5mPn-6mli8i8Z8MECPjufUxOr96zXy8d6_pfSj31oY4DgBne52Vfz1tNiphdOWVC3UvWevdYk4r-jC-FYkErc2JZQEzrXw3g76rkUwZ6y4UtfhpSGyU?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/tEi0OO7axNwAOF9z5LAG5QiGR9DYME_rodxVnX7hgB7auNjhQArMT-vO3oHIA7gP4rbaQW6e1m5aAl80XrIYyhC_0axnXXxVowI-mJ1nEw1B20vPtE6Tv87nT_lltRdUzb289BFnyUS1vXUP3DZ0-6rZLxurkw6jwGr8odHkvamvb_WSUROKY6Fl0Dy1sB3L?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/Da341EMVbDDqcxRhUPqLEMbG90NFXoCJ4Pkc459rcFgFjmN6ZE5GtY_T0f477vebE_EU1Y-Uc65LMBNuXGYBNwpFSIgBRMIVjupu-LKY9O5-QxBW2egO1VKAoGz-0jAioCpACkxHbrdLhiLUkuRfyozPX0EqhXaHZQ80M2IZNdlBvL-qZ577UHOq2peF8Uik?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/iNOtTu1DazQBJKUyKXIoaXYdOmfCunNiBdxQrY2FFNYcWzBK9xkAcYkj1Q4rnGcO6BIR6l0uSmSejEcJgRLSacFYDnEsoPL4-H0Ko_zK1HyhPfZwnJ7LwWRdq8pYF3i5Hhbp5c1OATbq6VmxTdUF_rVvmYSOnKBDNCd29dbX4cHQ2UAvdgaPm-lzNkhOxSRA?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/xdF1IVdlFUnD7IrjR_YWQNcJ2crKRH0d5DSMkHeYG1OvCWiqwh_wc6ZgeLw8wD3sykVIhaccjnZo--jDIwJKt4mhvObow2m1WHZa8jnh65JRbo0OaOHGmx29Zjlhue2OV9aQrzGcDNTeHHz3i15runTTvLQgag7UIQjsVl5ne5q3xKvn3fE5hibhmdWuJSPF?purpose=fullsize)
-
----
-
 # 📈 Why This Project is Good
 
 This project demonstrates:
