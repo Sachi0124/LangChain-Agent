@@ -1,0 +1,372 @@
+# LangChain Chat Agent 🚀
+
+An intelligent AI-powered chatbot built using [LangChain](https://www.langchain.com/?utm_source=chatgpt.com), [Streamlit](https://streamlit.io/?utm_source=chatgpt.com), and [Google Gemini API](https://ai.google.dev/?utm_source=chatgpt.com).
+
+This project integrates:
+
+* 🌐 Real-time web search
+* 🌦 Weather information
+* 📰 Latest news fetching
+* 🎥 YouTube search
+* 🤖 Gemini-powered responses
+* 💬 Interactive Streamlit chat interface
+
+The chatbot intelligently decides when to use tools and when to directly answer using the LLM.
+
+---
+
+# 📸 Project Screenshots
+
+## Main Chat Interface
+
+![Main UI](images/Screenshot%202026-05-09%20233304.png)
+
+---
+
+## Weather Query Response
+
+![Weather Response](images/Screenshot%202026-05-09%20233713.png)
+
+---
+
+## General Knowledge Response
+
+![Knowledge Response](images/Screenshot%202026-05-09%20233815.png)
+
+---
+
+# ✨ Features
+
+* 🤖 Gemini 2.5 Flash Integration
+* 🌐 DuckDuckGo Web Search
+* 🌦 Real-Time Weather Search
+* 📰 Latest News Search
+* 🎥 YouTube Video Search
+* ⚡ Fast Query Caching
+* 🧠 Smart Query Handling
+* 💬 Modern Streamlit Chat UI
+* 📺 Embedded YouTube Video Playback
+* 🔄 Rate Limiting Support
+* 🛡 Error Handling & Fallback Responses
+
+---
+
+# 🛠 Tech Stack
+
+## Backend
+
+* Python
+* LangChain
+* Gemini API
+* DuckDuckGo Search
+* News API
+* OpenWeather API
+
+## Frontend
+
+* Streamlit
+
+---
+
+# 📂 Project Structure
+
+```bash
+project/
+│
+├── agent.py          # Main AI agent logic
+├── tools.py          # Tool integrations
+├── ui.py             # Streamlit frontend
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── images/
+    ├── Screenshot 2026-05-09 233304.png
+    ├── Screenshot 2026-05-09 233713.png
+    └── Screenshot 2026-05-09 233815.png
+```
+
+---
+
+# ⚙️ How It Works
+
+## 1. User Sends Query
+
+Example:
+
+```text
+What is Bengaluru weather?
+```
+
+---
+
+## 2. Agent Understands Intent
+
+The system checks:
+
+* Is it a greeting?
+* Does it need web search?
+* Does it require weather/news/video tools?
+
+---
+
+## 3. Tool Execution
+
+Depending on the query:
+
+| Query Type          | Tool Used         |
+| ------------------- | ----------------- |
+| General Information | DuckDuckGo Search |
+| Weather             | OpenWeather API   |
+| News                | News API          |
+| Videos              | YouTube Search    |
+
+---
+
+## 4. Gemini Generates Final Response
+
+The retrieved information is passed into Gemini for generating a clean natural-language response.
+
+---
+
+# 🧠 Architecture
+
+```text
+User Input
+     ↓
+Streamlit UI
+     ↓
+LangChain Agent
+     ↓
+Tool Selection
+ ┌───────────────┐
+ │ Web Search    │
+ │ Weather API   │
+ │ News API      │
+ │ YouTube Tool  │
+ └───────────────┘
+     ↓
+Gemini LLM
+     ↓
+Final Response
+```
+
+---
+
+# 📦 Installation
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/langchain-chat-agent.git
+cd langchain-chat-agent
+```
+
+---
+
+## 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 🔑 API Keys Setup
+
+Inside `agent.py`, add your API keys:
+
+```python
+GOOGLE_API_KEY = "YOUR_GEMINI_API_KEY"
+OPENWEATHER_API_KEY = "YOUR_OPENWEATHER_API_KEY"
+NEWS_API_KEY = "YOUR_NEWS_API_KEY"
+```
+
+---
+
+# ▶️ Run Project
+
+```bash
+streamlit run ui.py
+```
+
+Open browser:
+
+```text
+http://localhost:8501
+```
+
+---
+
+# 💡 Example Queries
+
+```text
+What is Bengaluru weather?
+
+Latest AI news
+
+Search YouTube videos about LangChain
+
+Who is Elon Musk?
+
+Explain quantum computing
+```
+
+---
+
+# 📜 Core Files
+
+## `agent.py`
+
+Handles:
+
+* Gemini initialization
+* Query processing
+* Rate limiting
+* Caching
+* Response generation
+
+
+
+---
+
+## `tools.py`
+
+Contains:
+
+* Web Search
+* Weather Search
+* News Search
+* YouTube Search
+
+
+
+---
+
+## `ui.py`
+
+Manages:
+
+* Streamlit UI
+* Chat history
+* Video embedding
+* User interaction
+
+
+
+---
+
+# 🚀 Optimization Features
+
+## ⚡ Query Caching
+
+Stores previous search results for:
+
+* Faster responses
+* Reduced API usage
+
+---
+
+## 🔄 Rate Limiting
+
+Prevents excessive API calls by:
+
+* Adding request intervals
+* Avoiding spam searches
+
+---
+
+## 🛡 Fallback Handling
+
+If search fails:
+
+* Gemini still responds intelligently
+
+---
+
+# 🎯 Future Improvements
+
+* Voice Assistant Support
+* Chat Memory
+* PDF Chat
+* RAG Integration
+* Database Support
+* LangGraph Agents
+* Multi-Agent System
+* Authentication System
+* Dark Mode UI
+
+---
+
+# 📈 Why This Project Matters
+
+This project demonstrates:
+
+* LangChain Tool Calling
+* Agentic AI Workflow
+* Real-Time Search Integration
+* API Handling
+* Streamlit Deployment
+* LLM Application Development
+
+Perfect for:
+
+* AI/ML Portfolio
+* GitHub Showcase
+* Internship Applications
+* Resume Projects
+* Learning Agentic AI
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+```bash
+Fork the repository
+Create your feature branch
+Commit your changes
+Push to your branch
+Open a Pull Request
+```
+
+# 👨‍💻 Author
+
+Sachith.C
+
+Information Science Engineering
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+* Give it a ⭐ on GitHub
+* Share it with others
+* Contribute improvements
+
+Happy Coding 🚀
